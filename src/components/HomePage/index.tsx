@@ -1,11 +1,12 @@
-import { useStoreState } from '../../../utils/storeHooks'
+import Landing from './Landing'
 import { Container } from './styles'
 
-const Home: React.FC = () => {
-  const count = useStoreState((state) => state.auth.count)
-  console.log(count)
-
-  return <Container>Home</Container>
+const Home = () => {
+  return (
+    <Container>
+      <Landing />
+    </Container>
+  )
 }
 
 export default Home
