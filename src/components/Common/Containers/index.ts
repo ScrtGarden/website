@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const OuterContainer = styled.div`
-  padding: ${(props) => props.theme.space.xxl} 0;
+  padding: ${(props) => props.theme.space.xxl}
+    ${(props) => props.theme.space.lg};
 `
 
 const InnerContainer = styled.div`

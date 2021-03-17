@@ -9,7 +9,7 @@ const Header = () => {
     <Container>
       <Brand />
       <Menu>
-        <Item>About Us</Item>
+        {/* <Item>About Us</Item> */}
         <Item as="a" href="https://secret-auction.vercel.app/" target="_blank">
           tulip OTC
         </Item>

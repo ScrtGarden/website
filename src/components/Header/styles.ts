@@ -14,7 +14,7 @@ const Menu = styled.div`
   align-items: center;
   column-gap: ${(props) => props.theme.space.xl};
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 `
 
 const Item = styled.div`
