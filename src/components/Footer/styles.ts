@@ -1,8 +1,54 @@
 import styled from 'styled-components'
 
+import { media } from '../../styles/mediaQueries'
+import Icon from '../Icons'
+
 const Container = styled.div`
-  border: 1px solid;
-  padding: ${(props) => props.theme.space.md};
+  background-color: ${(props) => props.theme.colors.footer.bg};
+  padding: ${(props) => props.theme.space.xxl}
+    ${(props) => props.theme.space.lg};
 `
 
-export { Container }
+const Content = styled.div``
+
+const Brand = styled.h1`
+  color: #c4d4e0;
+  font-size: 1.5rem;
+  margin: 0 0 ${(props) => props.theme.space.sm};
+
+  ${media.tablet} {
+    font-size: 2rem;
+    margin: 0 0 ${(props) => props.theme.space.md};
+  }
+`
+
+const Wrapper = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`
+
+const Text = styled.p`
+  font-size: ${(props) => props.theme.fontSizes.xs};
+  margin: 0;
+
+  ${media.mobileL} {
+    font-size: ${(props) => props.theme.fontSizes.sm};
+  }
+
+  ${media.tablet} {
+    font-size: ${(props) => props.theme.fontSizes.md};
+  }
+`
+
+const Anchor = styled.a``
+
+const StyledIcon = styled(Icon)`
+  /* cursor: pointer; */
+  fill: ${(props) => props.theme.colors.footer.icon};
+  height: ${(props) => props.theme.iconSizes.lg};
+  width: ${(props) => props.theme.iconSizes.lg};
+`
+
+export { Container, Content, Brand, Wrapper, Text, StyledIcon, Anchor }
