@@ -81,6 +81,10 @@ const theme = {
           },
         },
       },
+      footer: {
+        bg: '#21292d',
+        icon: '#a0b3c6',
+      },
     },
   },
   dark: {},
