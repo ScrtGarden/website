@@ -3,6 +3,7 @@ import { useSpring, useTrail } from 'react-spring'
 import useWindowSize from '../../../../utils/useWindowSize'
 import Button from '../../Common/Buttons/Button'
 import { InnerContainer, OuterContainer } from '../../Common/Containers'
+import OverlayControls from '../../OverlayControls'
 import { Buttons, Content, Label, Text, Wrapper } from './styles'
 
 const LABELS: string[] = ['Developer.', 'Validator.', 'Grower.']
@@ -13,6 +14,9 @@ const TEXTS: string[] = [
 
 const Landing = () => {
   const { width } = useWindowSize()
+  const toggleModal = OverlayControls.useStoreActions(
+    (actions) => actions.toggleModal
+  )
 
   const trail = useTrail(LABELS.length, {
     opacity: 1 as any,
@@ -59,6 +63,7 @@ const Landing = () => {
               isStretched
               isPrimary
               size={width && width > 768 ? 'large' : 'medium'}
+              onClick={() => toggleModal()}
             >
               Start Staking
             </Button>

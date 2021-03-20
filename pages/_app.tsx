@@ -1,6 +1,7 @@
 import { StoreProvider } from 'easy-peasy'
 import { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
+import { ModalProvider } from 'styled-react-modal'
 
 import GlobalStyle from '../src/styles/GlobalStyle'
 import theme from '../src/styles/theme'
@@ -12,8 +13,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <StoreProvider store={store}>
       <ThemeProvider theme={theme.light}>
-        <GlobalStyle />
-        <Component {...pageProps} />
+        <ModalProvider>
+          <GlobalStyle />
+          <Component {...pageProps} />
+        </ModalProvider>
       </ThemeProvider>
     </StoreProvider>
   )
