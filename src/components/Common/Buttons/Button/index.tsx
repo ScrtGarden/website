@@ -2,14 +2,16 @@ import { FC, memo } from 'react'
 
 import { Container } from './styles'
 
-interface Props {
-  className?: string
-  children?: JSX.Element | string
+interface OwnProps {
   size?: 'small' | 'medium' | 'large'
   isStretched?: boolean
   isPrimary?: boolean
   isSecondary?: boolean
 }
+
+interface Props
+  extends Omit<React.HTMLProps<HTMLButtonElement>, 'size'>,
+    OwnProps {}
 
 const Button: FC<Props> = (props) => {
   const {
@@ -19,6 +21,7 @@ const Button: FC<Props> = (props) => {
     isStretched,
     isPrimary,
     isSecondary,
+    onClick,
   } = props
 
   return (
@@ -28,6 +31,7 @@ const Button: FC<Props> = (props) => {
       isStretched={isStretched}
       isPrimary={isPrimary}
       isSecondary={isSecondary}
+      onClick={onClick}
     >
       {children}
     </Container>
