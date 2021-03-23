@@ -52,7 +52,7 @@ const theme = {
         brand: '#5eae91',
         title: '#2f3941',
         text: '#a0b3c6',
-        menuItem: '#f8f9f9',
+        menuItem: '#fff',
       },
       border: '',
       bg: '#12191d',
