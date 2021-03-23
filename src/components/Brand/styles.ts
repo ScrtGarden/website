@@ -4,7 +4,7 @@ import { media } from '../../styles/mediaQueries'
 import Icon from '../Icons'
 
 type Props = {
-  readonly footer?: boolean
+  readonly footer?: string
 }
 
 const Container = styled.div`
@@ -21,7 +21,9 @@ const Text = styled.h1<Props>`
 
   ${media.tablet} {
     font-size: ${(props) =>
-      props.footer ? props.theme.fontSizes.lg : props.theme.fontSizes.xxl};
+      props.footer === 'true'
+        ? props.theme.fontSizes.lg
+        : props.theme.fontSizes.xxl};
   }
 `
 
@@ -32,7 +34,7 @@ const StyledIcon = styled(Icon)<Props>`
   width: 2.5rem;
 
   ${(props) =>
-    props.footer &&
+    props.footer === 'true' &&
     `
     fill: #fff;
     height: 1.8rem;

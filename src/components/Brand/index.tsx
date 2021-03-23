@@ -9,8 +9,8 @@ type Props = {
 const Brand: FC<Props> = ({ footer }) => {
   return (
     <Container>
-      <StyledIcon name="flower" footer={footer} />
-      <Text footer={footer}>Secret Garden</Text>
+      <StyledIcon name="flower" footer={String(footer)} />
+      <Text footer={String(footer)}>Secret Garden</Text>
     </Container>
   )
 }
