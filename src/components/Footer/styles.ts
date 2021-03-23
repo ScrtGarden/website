@@ -5,28 +5,22 @@ import Icon from '../Icons'
 
 const Container = styled.div`
   background-color: ${(props) => props.theme.colors.footer.bg};
-  padding: ${(props) => props.theme.space.xxl}
-    ${(props) => props.theme.space.lg};
+  padding: ${(props) => `${props.theme.space.xxl} ${props.theme.space.lg}`};
 `
 
 const Content = styled.div``
-
-const Brand = styled.h1`
-  color: #c4d4e0;
-  font-size: 1.5rem;
-  margin: 0 0 ${(props) => props.theme.space.sm};
-
-  ${media.tablet} {
-    font-size: 2rem;
-    margin: 0 0 ${(props) => props.theme.space.md};
-  }
-`
 
 const Wrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  margin-top: ${(props) => props.theme.space.sm};
+
+  ${media.tablet} {
+    margin-top: ${(props) => props.theme.space.md};
+  }
 `
 
 const Text = styled.p`
@@ -51,4 +45,4 @@ const StyledIcon = styled(Icon)`
   width: ${(props) => props.theme.iconSizes.lg};
 `
 
-export { Container, Content, Brand, Wrapper, Text, StyledIcon, Anchor }
+export { Container, Content, Wrapper, Text, StyledIcon, Anchor }

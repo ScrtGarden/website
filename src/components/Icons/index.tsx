@@ -1,4 +1,5 @@
 import Dizzy from './Dizzy'
+import Flower from './Flower'
 import GitHub from './GitHub'
 import Keplr from './Kelpr'
 import PuzzlePiece from './PuzzlePiece'
@@ -14,6 +15,9 @@ const Icon = (props: Props) => {
   let SelectedIcon
 
   switch (name) {
+    case 'flower':
+      SelectedIcon = Flower
+      break
     case 'github':
       SelectedIcon = GitHub
       break
