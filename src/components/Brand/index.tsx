@@ -1,11 +1,16 @@
-import { memo } from 'react'
+import { FC, memo } from 'react'
 
-import { Container, Text } from './styles'
+import { Container, StyledIcon, Text } from './styles'
 
-const Brand = () => {
+type Props = {
+  footer?: boolean
+}
+
+const Brand: FC<Props> = ({ footer }) => {
   return (
     <Container>
-      <Text>Secret Garden</Text>
+      <StyledIcon name="flower" footer={footer} />
+      <Text footer={footer}>Secret Garden</Text>
     </Container>
   )
 }
