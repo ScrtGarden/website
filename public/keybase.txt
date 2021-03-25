@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/secret_garden
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://scrtgarden.com
+  * I am secret_garden (https://keybase.io/secret_garden) on keybase.
+  * I have a public key with fingerprint C0E4 F3BA 4FAB 6ACB 5846  FCB8 203C CBCA 525D F1F2
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c6f0adcbfe68376a0403d1a8edf5de1880df7433474b85ef4103db0bf81b27440a",
+      "fingerprint": "c0e4f3ba4fab6acb5846fcb8203ccbca525df1f2",
+      "host": "keybase.io",
+      "key_id": "203ccbca525df1f2",
+      "kid": "0101c6f0adcbfe68376a0403d1a8edf5de1880df7433474b85ef4103db0bf81b27440a",
+      "uid": "9b807921e55e98abad375559505f2419",
+      "username": "secret_garden"
+    },
+    "service": {
+      "hostname": "scrtgarden.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1616646805,
+  "expire_in": 157680000,
+  "prev": "c6f7d0758033fb10ed721f5da554e7cab7b9ecd7c9caa11a3a0d0eb3600e8687",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIsAnicrZJbSBRRGMfXNkst6eJiIJQ0XQha5MzlzMxuD0FYdIEi6K1sO7dZJ3Vm
+d3ZcFbWLZRAqFalRQvVghdFFgu4PakqCRSVmBfpgF6QQumBSpEFnrN567Lwczvf9
+vv/5f985PZl+X0ZK1aHsvvU3j/amPOo6W+rbs2thU6WAbVohhCuFIja9sWLKEm6k
+yKRCWAAiEIlqAEQJNpiqy5qKgAJkKiKdUQNSJuo6oIamyLKiKViHzFBEnscAG7qI
+JU1RABKCgmFaUebEHNNyuSwBTDFkjBQDYRURDHVFNQjWJSATggmCEqSGaEi8sNBO
+eBXcHEYJlmfaPMYPkWl7/+D/s+/SabkQ1oEWkkQGIQvpCCMqaxDCEATQkBQx5IEJ
+5liohHE6wYjD3EgUOZRZQnWQB5ykSZg3Xa+dvxhx3N9MHrFLuETMsV2b2MU8V+i6
+sUTYq3UrYh5cxnDkj0wEmxbl4+QVSeYkTNsSwiIniWt6uqIqqqqi6gAGBVYeMx0W
+MT0CajzGl3cPS3qPoBoaBRrUgSwbWASMapLIR4MgVJhGENZwiBGqkRBBSBSRjAAF
+DMsqAExXdU3wGotbthCWuE0U9VoyoxZySx0mVD/o3DXTl5Lhm5U6w/tmvoz0+X8/
+X3nj7J9ZwR8TJmt+3Hg/e+XS1s6288vqjRstT3eOHB8crxq129YWbp3K6kqW9Ox4
+fcD8uqL98tu59XZqT0PN6KdN+2uKKq3ltdmHy/ouLEkdWHje35SrfqhtuzOvYNCf
+3tC77tbs1gY6/Dnycqx9uPhY8MXSu5M7Jq4eHNR6PxYPuO9WrK0ayq9D86+eSo1f
+Kqi73Rd+ujhn+bfo0JaK/KqO628CR5XQ99VTi+o3atc6VnePdduBLf7+bTm1rblX
+npTkBVcNz5lE1bde2fFnX/b1x+LtuWd3ptVlBcCCYEog50jmXvPMgY271+w/+Tyt
+5aF0b8P7RGxzc9Nx9cSN8W0Xz/lHtuedTv4CCbBFWA==
+=g7Pr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/secret_garden
+
+==================================================================
