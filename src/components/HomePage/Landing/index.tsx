@@ -6,7 +6,7 @@ import { InnerContainer, OuterContainer } from '../../Common/Containers'
 import OverlayControls from '../../OverlayControls'
 import { Buttons, Content, Label, Text, Wrapper } from './styles'
 
-const LABELS: string[] = ['Developer.', 'Validator.', 'Grower.']
+const LABELS: string[] = ['Develop.', 'Validate.', 'Grow.']
 const TEXTS: string[] = [
   'Secret Garden aims to secure and grow the Secret Network ecosystem.',
   'We build dApps for the community to enjoy.',
